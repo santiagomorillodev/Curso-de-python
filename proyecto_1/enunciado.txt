@@ -17,7 +17,8 @@ universitarios, a continuación se presentan los requerimientos:
 
 2. Flujo del sistema:
 
-👉🏼 Listado de estudiantes: deberá mostrar una lista con todos los estudiantes registrados y sus datos personales, estos son: nombre, apellido, cédula, nota 1, nota 2, nota 3, y promedio (este será calculado a partir de las tres notas anteriormente registradas)
+👉🏼 Listado de estudiantes: deberá mostrar una lista con todos los estudiantes registrados y sus datos personales, estos son: nombre, apellido, cédula, nota 1, nota 2, nota 3, y promedio 
+(este será calculado a partir de las tres notas anteriormente registradas)
 
 👉🏼 Registrar estudiantes: se le pedirá al usuario ingresar el nombre, apellido, cédula, nota 1, nota 2, y nota 3
 
@@ -28,7 +29,9 @@ universitarios, a continuación se presentan los requerimientos:
 
 3. Consideraciones importantes
 
-👉🏼 Se debe validar cada dato ingresado en el sistema, esto quiere decir que no es posible colocar un nombre o apellido vacío, así como también la cédula solo debe estar conformada por números, las notas 1, 2, y 3 deben estar en el rango numérico de 0 - 20, en cualquier caso de introducir un dato erróneo se le debe mostrar al usuario un mensaje de error señalando que por favor ingrese el dato correcto, y volverlo a pedir
+👉🏼 Se debe validar cada dato ingresado en el sistema, esto quiere decir que no es posible colocar un nombre o apellido vacío, así como también la cédula solo debe estar conformada por números, 
+las notas 1, 2, y 3 deben estar en el rango numérico de 0 - 20, en cualquier caso de introducir un dato erróneo se le debe mostrar al usuario un mensaje de error señalando que por favor ingrese 
+el dato correcto, y volverlo a pedir
 
 👉🏼 Casos como estos se utiliza el ciclo while para la ejecución de todo el programa, si un usuario elije una opción diferente de 1 y 4 se le debe comunicar en pantalla que la opción seleccionada es incorrecta y volver a pedir una nuevamente (esto también lo pueden hacer para cuando se pidan los datos personales del estudiante)
 
